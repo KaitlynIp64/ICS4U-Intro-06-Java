@@ -1,5 +1,5 @@
 /*
-World program implements an application that
+* The HellowWorld program implements an application that
 * simply displays "Hello World!" to the standard output.
 *
 * @author  Kaitlyn Ip
@@ -12,28 +12,26 @@ World program implements an application that
 */
 final class HelloWorld {
 
-	/**
-	* Prevent instantiation.
-	* Throw an exception IllegalStateException.
-	* if this is ever called
-	*
-	* @throws IllegalStateException if this is ever called
-	*
-	*/
-	private HelloWorld() {
-	    throw new IllegalStateException("Cannot be instantiated");
-	}
+    /**
+    * Prevent instantiation.
+    * Throw an exception IllegalStateException.
+    * if this is ever called
+    *
+    * @throws IllegalStateException if this is ever called
+    *
+    */
+    private HelloWorld() {
+        throw new IllegalStateException("Cannot be instantiated");
+    }
 
-	/**
-	* The starting main() function.
-	*
-	* @param args No args will be used
-	*/
-	public static void main(final String[] args) {
-
-		// print out "Hello, World!"
-		 System.out.println("Hello, World!");
-		 
-		 System.out.println("\nDone.");
-	}
+    /**
+    * The starting main() function.
+    *
+    * @param args No args will be used
+    */
+    public static void main(final String[] args) {
+	    // print out "Hello, World!"
+	    // System.out.println("Hello, World!");
+	    System.out.println("\nDone.");
+    }
 }
